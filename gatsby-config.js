@@ -2,10 +2,10 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: '论文收割机 - 分享计算机领域最新论文',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
-  },
+      '分享数据挖掘、人工智能、计算机视觉等计算机研究领域的最新论文阅读报告。'
+    },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
